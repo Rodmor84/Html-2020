@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+
+<!-- 
+    Enlaces: conocidos tambien por links popularmente. Su objetivo es conectar una pagina web con otra pagina web, con un recurso interno como externo, o con otro sitio web.
+
+    Tienen el atributo obligatorio href, donde le especificamos la ruta del recurso o sitio que queremos obtener.
+
+    Tambien tiene el atributo target, que configura como queremos visualizar el recurso o sitio que solicitamos. 
+
+    Rutas absoluta:
+        Tienen un protocolo, http o https y son unicas en la red
+        Se suelen utilizar para rutas externas
+
+    Rutas relativas:
+        Pueden ser realativas al punto donde nos encontramos o relativas a la raiz del proyecto
+
+        No usan protocolo
+
+        Si el recurso se encuentra al mismo nivel (en la misma carpeta) pondremos unicamente el nombre del archivo.
+
+        Si necesitamos salir de la carpeta actual usaremos ../ y se pone uno por cada nivel (carpeta) de la que queramos salir.
+
+    Atributos de los enlaces
+        target: define donde se abrira el recurso solicitado. Por norma general siempre que usamos rutas absolutas pondremos como valor "_blank"
+
+        download: Atributo booleano, sirve para descargar el recurso solicitado.
+        IMPORTANTE, el recurso debe estar en tu mismo servidor
+    -->
+
+<body>
+    <h1>Home</h1>
+    <a href="contacto.html" download>Ir a contacto</a>
+    <!--<a href="http://google.com" target="_blank">Ir a google</a> -->
+</body>
+</html>
